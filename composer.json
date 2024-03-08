@@ -1,0 +1,19 @@
+{
+    "name": "noga/php-stripe-api-usage",
+    "description": "Implementing strip with php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Noga\\PhpStripeApiUsage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Noga Vigdor",
+            "email": "noga.vigdor@gmail.com"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^13.13"
+    }
+}
